@@ -1,0 +1,207 @@
+body
+{
+    background-color: rgb(127, 14, 233);
+    z-index: 3;
+}
+.container1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.one
+{
+    width: 473px;
+    height: 132px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    position: absolute;
+    top: 16px;
+    left: 752px;
+    display: flex;
+    justify-content: space-evenly;
+    color:#3D087B;
+    z-index: 1;
+}
+.two
+{
+    width: 416px;
+    height: 130px;
+    position: absolute;
+    left: 780px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    opacity: 0.71;
+    top: 30px;
+}
+.three
+{
+    width: 379px;
+    height: 146px;
+    position: absolute;
+    right: 140px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    opacity: 0.22;
+    top: 30px;
+    left: 798px;
+}
+
+
+.container2{
+    top: 163px;
+    left: 149px;
+    width: 540px;
+    height: 400px;
+    background-color:white;
+    margin: 2rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+.dropdown{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.wakeup{
+    color: rgb(92, 35, 145);
+    font-size: 25px;
+}
+.dropdown1
+{
+    width: 180px;
+    background-color:white;
+    border:none;
+    font-size: 18px;
+}
+.hrone
+{
+    height: 20px;
+    width: 0px;
+    position: relative;
+    right: 200px;
+}
+.good
+{
+    margin: 2rem;
+    padding: 0.5rem;
+    height: 50px;
+    width: 540px;
+    background-color: rgb(189, 157, 240);
+    border-radius: 20px;
+    text-align: center ;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: whitesmoke;
+}
+button
+{
+    margin:2rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+    width:270px;
+    font-size: 23px;
+    background: transparent
+     linear-gradient(
+     to right, 
+     #6E54EC , 
+     #CB52F8,
+     #FC5EFF,
+     #F1A7C5);
+     color: #EDEDED;
+     border: #EDEDED;
+}
+
+button:hover span {
+    display: none;
+}
+
+button:hover:before {
+    content: "Party time";
+}
+.up
+{
+    height:80px;
+    width: 230px;
+    background-color:#5d1fa3;
+    margin-left: 21rem;
+    margin-top: -5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+    color: #F25CFE;
+    border: #EDEDED;
+}
+.breakfast
+{
+    font-family: 'Josefin Sans', sans-serif;
+    height: 40px;
+    width: 400px;
+    color: #8E53F0;
+    padding: 2rem;
+    position: absolute;
+    right: 130px;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 10px;
+    font-weight: bolder;
+    top: 250px;
+}
+.pic
+{
+    height: 341px;
+    width: 536px;
+    position: absolute;
+    left: 750px;
+    top: 400px;
+}
+
+.time{
+    background-image: url(./color.png);
+    width: 60px;
+    font-size: 17px;
+    text-align: center;
+    height: 95px;
+    margin-top: 19px;
+    border-radius: 6px;
+}
+.T{
+    background: transparent; 
+    text-align:center;
+     display:inline-block ;
+     padding-top:30px;
+}
+.am{
+    background-image: url(AM_svg.svg);
+    background-repeat: no-repeat;
+    width: 60px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    height: 90px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.h{
+    background: transparent;
+    margin:10px;   
+}
+h1.h.colon{
+    margin: 44px 0px 0px;
+}
+
+
+
+@media screen and (max-width: 1160px)  {
+    .sub-container{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+
+
+}

@@ -67,7 +67,7 @@ function setTime(){
         if (b == hourr){
             document.getElementById("good").innerText = "Good Afternoon !! Take some Sleep"
  
-            document.getElementById("breakfast").innerText = "let's have some lunch !!"
+            document.getElementById("breakfast").innerText = "let's Enjoy lunch !!"
 
             document.getElementById("pic").src = "./lunchtime.svg";
         
@@ -76,7 +76,7 @@ function setTime(){
         if (c == hourr){
             document.getElementById("good").innerText = "Good Evening !!"
  
-            document.getElementById("breakfast").innerText = "Stop Yawning ,Get some Tea"
+            document.getElementById("breakfast").innerText = "Tea/Coofee Time"
 
             document.getElementById("pic").src = "./nap.png";
         
